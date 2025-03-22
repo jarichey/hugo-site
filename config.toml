@@ -20,3 +20,6 @@ theme = "PaperMod"
   name = "Research"
   url = "/research/"
   weight = 20
+
+relativeURLs = true
+canonifyURLs = true
