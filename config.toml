@@ -1,0 +1,22 @@
+baseURL = "https://jeremiah-richey.com/"
+languageCode = "en-us"
+title = "Jeremiah Richey"
+theme = "PaperMod"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 10
+
+  [[menu.main]]
+  identifier = "research"
+  name = "Research"
+  url = "/research/"
+  weight = 20

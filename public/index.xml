@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Jeremiah Richey (home tab) on Jeremiah Richey</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Jeremiah Richey (home tab) on Jeremiah Richey</description>
+    <generator>Hugo -- 0.126.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Mar 2025 12:42:54 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Sat, 22 Mar 2025 12:42:54 -0400</pubDate>
+      <guid>http://localhost:1313/research/</guid>
+      <description>Below are links to select publications and working papers. Full CV here.
+&amp;ldquo;Explaining Denials: Adverse Action Codes and Machine Learning in Credit Decisions&amp;rdquo; with George Krivorotov. (link)
+&amp;ldquo;Decomposing Joint Distributions via Reweighting Functions: An Application to Intergenerational Economic Mobility&amp;rdquo; with Alicia Rosburg, Econometric Reviews (2020), 39(6). (link)
+&amp;ldquo;Decomposing Economic Mobility Transition Matrices&amp;rdquo; with Alicia Rosburg, Journal of Applied Econometrics (2018), 33. (link)
+&amp;ldquo;Changing Roles of Ability and Education in U.S. Intergenerational Mobility&amp;rdquo; with Alicai Rosburg, Economic Inquiry (2017), 55, 1.</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Sat, 22 Mar 2025 12:42:47 -0400</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>This page has my current projects</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 22 Mar 2025 12:42:38 -0400</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Me in Old York (not New York!)</description>
+    </item>
+  </channel>
+</rss>
