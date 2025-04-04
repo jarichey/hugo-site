@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=37209&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
 <title>Projects | Jeremiah Richey</title>
 <meta name="keywords" content="">
-<meta name="description" content="This page has my current projects">
+<meta name="description" content="Using LLMs as Economic Agents. Here I use LLMs as economic agents in a few scenarios to test their ability to be used in (hopefully) larger simulations. Full paper is pending, but here are some pretty cool results.
+First I show that you can determine their &lsquo;utility&rsquo; function indirectly (i.e. &lsquo;steer&rsquo; their behavior) with a custom prompt giving them a &lsquo;personality&rsquo;. In this simulation I randomly create agents with random mixes of characteristics and have them play the dictator game - they offer some percent of $100 to another unknown player and if they other player accepts they both keep the money, if the other player refuses, they both get nothing.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/projects/">
+<link rel="canonical" href="http://localhost:37209/projects/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:37209/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:37209/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:37209/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:37209/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:37209/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/projects/">
+<link rel="alternate" hreflang="en" href="http://localhost:37209/projects/">
 <noscript>
     <style>
         #theme-toggle,
@@ -73,7 +74,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Jeremiah Richey (Alt + H)">Jeremiah Richey</a>
+            <a href="http://localhost:37209/" accesskey="h" title="Jeremiah Richey (Alt + H)">Jeremiah Richey</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -99,13 +100,18 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/projects/" title="Projects">
+                <a href="http://localhost:37209/projects/" title="Projects">
                     <span class="active">Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/research/" title="Research">
+                <a href="http://localhost:37209/research/" title="Research">
                     <span>Research</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:37209/teaching/" title="Teaching">
+                    <span>Teaching</span>
                 </a>
             </li>
         </ul>
@@ -123,7 +129,47 @@
 
 </div>
   </header> 
-  <div class="post-content"><p>This page has my current projects</p>
+  <div class="post-content"><h2 id="using-llms-as-economic-agents">Using LLMs as Economic Agents.<a hidden class="anchor" aria-hidden="true" href="#using-llms-as-economic-agents">#</a></h2>
+<p>Here I use LLMs as economic agents in a few scenarios to test their ability to be used in (hopefully) larger simulations. Full paper is pending, but here are some pretty cool results.</p>
+<ol>
+<li>First I show that you can determine their &lsquo;utility&rsquo; function indirectly (i.e. &lsquo;steer&rsquo; their behavior) with a custom prompt giving them a &lsquo;personality&rsquo;. In this simulation I randomly create agents with random mixes of characteristics and have them play the dictator game - they offer some percent of $100 to another unknown player and if they other player accepts they both keep the money, if the other player refuses, they both get nothing. The left shows four random people and their distribution of what they offer to keep, the middle shows distribution of cross-player T-stats testing equivalence of the mean over many simulations, and the right shows a snippet of some regressions - here just highlighting how political leaning affects the agents&rsquo; average response. Pretty cool!</li>
+</ol>
+<div style="display: flex; justify-content: center; gap: 30px; padding-bottom: 20px;">
+  <figure style="text-align: center;">
+    <img src="/images/Dictator_DollarsToKeep.PNG" alt="Image 1" width="500">
+    <figcaption>Ex&#39;s of Dist. Offers</figcaption>
+  </figure>
+  <figure style="text-align: center;">
+    <img src="/images/Dictator_CrossAveTStat.PNG" alt="Image 2" width="500">
+    <figcaption>Dist. of Cross-T-Stats</figcaption>
+  </figure>
+</div>
+
+<div style="display: flex; justify-content: center;">
+  <figure style="text-align: center;">
+    <img src="/images/Dictator_RegSnip.PNG" alt="Image 3" width="600">
+    <figcaption>Snippet of Regs</figcaption>
+  </figure>
+</div>
+
+
+
+<ol start="2">
+<li>Here I test loss aversion with a simple experiment where you either give an agent (again with random mix of characteristics) a ticket and have another offer to buy, or tell them another agent has it and they can offer a price to sell. A perfectly rational agent would tend to stop offering to buy at the same price they start accepting offers to sell - because that is above the price they value the ticket. But, LLMs seem to be much like people and display loss aversion - they start refusing to buy long before they start accepting to sell. Except this guy below! He looks incredibly rational! And when we check his profile we see he is&hellip; an economist! Sometimes research is more than expected!</li>
+</ol>
+<figure style="text-align: center;">
+  <img src="/images/LossAverse_Economist.PNG" alt="Economist" width="500">
+  <figcaption><em>Economist looks quite rational!</em></figcaption>
+</figure>
+
+<ol start="3">
+<li>Finally I show that agents can interact and reach a simple equilibrium in a simple supply and demand set up. So each agent only knows there are other agents out there, some sellers and some buyers, and they know the set of their values or costs of the good and the offers or bids if there are any. They go in random order one by one either making offer/bid or accepting an existing one. And we see over time they consistantly reach the theoretical equilibrium once some bidding has played out. Moreover it seems that in the &lsquo;second round&rsquo; that the convergence is smoother for some instances. So first panel is the hypothetical supply and demand curves and equilibrium based on the actual distribution of values and costs the agents have, and the second panel is the evolution of sell prices for multiple runs. In the second set of lines in the second panel we have convergence where the agents know of the previous round&rsquo;s outcomes. Pretty cool!</li>
+</ol>
+<figure style="text-align: center;">
+  <img src="/images/SnD_Graph.PNG" alt="SnD" width="800">
+  <figcaption><em>Equilibrium Convergence!</em></figcaption>
+</figure>
+
 
 
   </div>
@@ -136,7 +182,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">Jeremiah Richey</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:37209/">Jeremiah Richey</a></span> · 
 
     <span>
         Powered by

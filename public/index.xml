@@ -2,36 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Jeremiah Richey (home tab) on Jeremiah Richey</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:37209/</link>
     <description>Recent content in Jeremiah Richey (home tab) on Jeremiah Richey</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Mar 2025 12:42:54 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Research</title>
-      <link>http://localhost:1313/research/</link>
-      <pubDate>Sat, 22 Mar 2025 12:42:54 -0400</pubDate>
-      <guid>http://localhost:1313/research/</guid>
-      <description>Below are links to select publications and working papers. Full CV here.
-&amp;ldquo;Explaining Denials: Adverse Action Codes and Machine Learning in Credit Decisions&amp;rdquo; with George Krivorotov. (link)
-&amp;ldquo;Decomposing Joint Distributions via Reweighting Functions: An Application to Intergenerational Economic Mobility&amp;rdquo; with Alicia Rosburg, Econometric Reviews (2020), 39(6). (link)
-&amp;ldquo;Decomposing Economic Mobility Transition Matrices&amp;rdquo; with Alicia Rosburg, Journal of Applied Econometrics (2018), 33. (link)
-&amp;ldquo;Changing Roles of Ability and Education in U.S. Intergenerational Mobility&amp;rdquo; with Alicai Rosburg, Economic Inquiry (2017), 55, 1.</description>
-    </item>
+    <lastBuildDate>Sat, 22 Mar 2025 12:42:47 -0400</lastBuildDate>
+    <atom:link href="http://localhost:37209/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>http://localhost:37209/projects/</link>
       <pubDate>Sat, 22 Mar 2025 12:42:47 -0400</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
-      <description>This page has my current projects</description>
+      <guid>http://localhost:37209/projects/</guid>
+      <description>Using LLMs as Economic Agents. Here I use LLMs as economic agents in a few scenarios to test their ability to be used in (hopefully) larger simulations. Full paper is pending, but here are some pretty cool results.
+First I show that you can determine their &amp;lsquo;utility&amp;rsquo; function indirectly (i.e. &amp;lsquo;steer&amp;rsquo; their behavior) with a custom prompt giving them a &amp;lsquo;personality&amp;rsquo;. In this simulation I randomly create agents with random mixes of characteristics and have them play the dictator game - they offer some percent of $100 to another unknown player and if they other player accepts they both keep the money, if the other player refuses, they both get nothing.</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:37209/about/</link>
       <pubDate>Sat, 22 Mar 2025 12:42:38 -0400</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>Me in Old York (not New York!)</description>
+      <guid>http://localhost:37209/about/</guid>
+      <description>Me in Old York (not New York!)I am currently the Lead Modeling Expert within the Office of Comptroller of the Currency&amp;rsquo;s Retail Risk Analysis Division where I specialize in AI/ML modeling in credit risk related areas. My research focuses on both ML in credit modeling, but also, more interestingly, on understanding how LLMs work and in exploring their use in economic modeling (see projects page) and in designing cool systems around them.</description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:37209/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:37209/research/</guid>
+      <description>Below are links to select publications and working papers. Full CV here.
+&amp;ldquo;Explaining Denials: Adverse Action Codes and Machine Learning in Credit Decisions&amp;rdquo; with George Krivorotov. (link); (pdf)
+&amp;ldquo;The Black-White Wage Gap among Young Men in 1990 versus 2011: With Sample Selection Adjustments&amp;rdquo; with Nikolas Tromp, Bulletin of Economic Research (2021) (link)
+&amp;ldquo;Decomposing Joint Distributions via Reweighting Functions: An Application to Intergenerational Economic Mobility&amp;rdquo; with Alicia Rosburg, Econometric Reviews (2020), 39(6).</description>
+    </item>
+    <item>
+      <title>Teaching</title>
+      <link>http://localhost:37209/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:37209/teaching/</guid>
+      <description>Introductory Labor Economics For many years as a professor I taught labor economics. And while there are several good introductory texts, none felt they matched my lecture plans. So I ended up just writing my own book! And I was in Korea so wanted some of the data to be specific to the student body. Please feel free to use as a reference if you are teaching a course. The book can be donwloaded here - (Introductory Labor Economics: A Modern Approach)</description>
     </item>
   </channel>
 </rss>
