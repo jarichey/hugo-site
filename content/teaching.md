@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 <!-- date: 2025-04-04T13:21:18-04:00 -->
-draft: true
+draft: false
 ---
 
 
