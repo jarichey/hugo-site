@@ -6,6 +6,8 @@ draft: false
 
 ## Using LLMs as Economic Agents.
 
+See code files here [(my git hub)](https://github.com/jarichey/EconAgents)
+
 Here I use LLMs as economic agents in a few scenarios to test their ability to be used in (hopefully) larger simulations. Full paper is pending, but here are some pretty cool results. 
 
 1. First I show that you can determine their 'utility' function indirectly (i.e. 'steer' their behavior) with a custom prompt giving them a 'personality'. In this simulation I randomly create agents with random mixes of characteristics and have them play the dictator game - they offer some percent of $100 to another unknown player and if they other player accepts they both keep the money, if the other player refuses, they both get nothing. The left shows four random people and their distribution of what they offer to keep, the middle shows distribution of cross-player T-stats testing equivalence of the mean over many simulations, and the right shows a snippet of some regressions - here just highlighting how political leaning affects the agents' average response. Pretty cool!
